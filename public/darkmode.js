@@ -20,6 +20,4 @@ window.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('theme', 'light');
         }
     });
-    
-    console.log('Dark mode initialized successfully!');
 });
