@@ -4,26 +4,37 @@
 npm create astro@latest -- --template basics
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **Seasoned astronaut** 
+This is Kiet, I just migrate all of my personal file into Astro for CSE134-HW4 🥸
 
 ## 🚀 Project Structure
-
 Inside of your Astro project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+│   ├── darkmode.js
+│   ├── main.css
+│   └── resources/
+│       ├── Kiet_JZG_600.jpg
+│       ├── Kiet_Lake_1024.jpg
+│       ├── Kiet_Pink_600.jpg
+│       ├── KietAndHisFriends_1024.jpg
+│       ├── oppenheimer_600.jpg
+│       └── vkd.ico
+└── src/
+    ├── assets/
+    │   ├── astro.svg
+    │   └── background.svg
+    ├── components/
+    │   ├── CustomEl.astro
+    │   ├── Footer.astro
+    │   └── Header.astro
+    ├── layouts/
+    │   └── Layout.astro
+    └── pages/
+        ├── about-me.astro
+        └── index.astroRetry
 ```
 
 To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
